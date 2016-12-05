@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>White Pine Lake</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <!-- <script src="leaflet.js"></script> -->
+   <link rel="stylesheet" href="./css/master.css">
+ </head>
+  <body>
+    <header>
+      <h1>Winter Trails of the Wasatch</h1>
+      <h2>Little Cottonwood Canyon</h2>
+      <!-- <h3>Trails Around Brighton Lodge</h3> -->
+      <ul>
+        <!-- <li>White Pine Lake</li> -->
+      </ul>
+    </header>
+
+    <div id="sidebar">
+      <div id="avalanche">
+        <h2>Be Prepared</h2>
+      </div>
+            <p><strong>
+              Know Before You Go:  </strong><br />Check the <a href="https://utahavalanchecenter.org/advisory/salt-lake" target="_blank">avalanche warning site.
+              <img src="/Users/kevinjblack/Desktop/final-project/images/utah-avalanche-logo.png" alt="Avalanche Warning logo">
+            </a>
+
+            </p>
+      <hr>
+      <!-- <p id="data">Data</p> -->
+      <h3>Show the Trail's Weather</h3>
+      <ul>
+        <li id="temp">temp</li>
+        <li>Minimum Temperature:</li>
+        <li>Maximum Temperature:</li>
+        <li>Wind Speed:</li>
+        <li>Wind Direction:</li>
+      </ul>
+    </div>
+
+    <div id="main">
+      <body>
+        <h2>White Pine Lake</h2>
+        <!-- <h3>The map should be below here ... <hr></h3> -->
+        <!-- <br> -->
+        <div id="mapid"></div>
+        <!-- <br><hr> -->
+        <!-- <h3>... and above here.</h3> -->
+    </div>
+    </body>
+
+    <!-- <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtosU00NJFegvblUISrzuAwABYfRFkduI&callback=initMap">
+    </script> -->
+      <script src="./js/leaflet.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+      <script src="./js/weather.js"></script>
+    <!-- <script src="main.js"></script> -->
+  </body>
+</html>
