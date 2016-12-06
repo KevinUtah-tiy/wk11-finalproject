@@ -2,7 +2,7 @@
 
 //check to make sure they js is talking to the html
 // window.onload = function () {
-//   alert("working");
+// alert("working");
 // };
 // console.log("Hello, World!");
 // console.log(document.title);
