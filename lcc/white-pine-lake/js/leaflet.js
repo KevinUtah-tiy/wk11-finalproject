@@ -16,25 +16,15 @@ var marker = L.marker([40.575517, -111.680978]).addTo(mymap);
 
 //add a polygon
 var polygon = L.polygon([
-  [40.576, -111.679],
-  [40.576, -111.682],
-  [40.566, -111.698],
-  [40.539, -111.698],
-  [40.539, -111.690],
-  [40.563, -111.690],
-  [40.570, -111.679]
-// commented out to put new coordinates
-    // [40.575517, -111.67],//NE coord
-    // [40.575517, -111.69],//same lat, diff lon ... NW coord
-    // [40.5325, -111.69],//SW coord
-    // [40.5325, -111.67] //same lat, diff lon ... SE coord
-
-    //an extra for the heck of it
+    [40.575517, -111.67],//NE coord
+    [40.575517, -111.69],//same lat, diff lon ... NW coord
+    [40.5325, -111.69],//SW coord
+    [40.5325, -111.67] //same lat, diff lon ... SE coord
     // [40.575517, -111.680978]
 ]).addTo(mymap);
 
 //insert a marker popup
-marker.bindPopup("<strong>Trail Head!<hr>Red Pine Lake.</strong>").openPopup();
+marker.bindPopup("<b>Trail Head!<br><br>Red Pine Lake.</b>").openPopup();
 
 //insert a standalone popup
 // var popup = L.popup()

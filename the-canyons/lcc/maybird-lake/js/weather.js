@@ -35,11 +35,11 @@ $.getJSON(api, function(data) {
 
   $("#temp_max").html("High: " + temp_max + "°F");
 
-  $("#weatherType").html("It is currently " + weatherType + ".");
+  $("#weatherType").html("It is currently " + weatherType);
 
   $("#windSpeed").html("The wind is currently blowing " + windSpeed + "mph with a heading of " + windDirection + "°.");
 
-  $("#humidity").html("The humidity is " + humidity + "%<br>" + "with atmospheric pressure of " + pressure + "hpa.")
+  $("#humidity").html("The humidity is " + humidity + "%<br>" + "with atmospheric pressure of " + pressure + "hpa")
 
   $("#weather").attr('icons/'+weather+'.png');
 });
